@@ -421,6 +421,20 @@ main picture img {
     gap: 1rem;
     margin-bottom: 0.25rem;
   }
+  main header h1 {
+    font-size: 2rem;
+  }
+
+  main header h2 {
+    color: snow;
+    font-size: 1.5rem;
+  }
+
+  main picture {
+    width: auto;
+    height: calc(50% - 1rem);
+    aspect-ratio: 1 / 1;
+  }
   #about-me header {
     width: 100%;
     display: flex;
